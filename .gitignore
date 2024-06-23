@@ -11,4 +11,10 @@ CTestTestfile.cmake
 _deps
 
 build/
+.vscode//
 
+.vscode/c_cpp_properties.json
+.vscode/cmake-kits.json
+.vscode/extensions.json
+.vscode/settings.json
+.vscode/tasks.json

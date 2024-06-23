@@ -108,7 +108,7 @@ target_compile_definitions(pico_loramac_node INTERFACE -DREGION_CN470)
 target_compile_definitions(pico_loramac_node INTERFACE -DREGION_KR920)
 target_compile_definitions(pico_loramac_node INTERFACE -DREGION_IN865)
 target_compile_definitions(pico_loramac_node INTERFACE -DREGION_RU864)
-target_compile_definitions(pico_loramac_node INTERFACE -DACTIVE_REGION=LORAMAC_REGION_US915)
+target_compile_definitions(pico_loramac_node INTERFACE -DACTIVE_REGION=LORAMAC_REGION_EU868)
 
 add_library(pico_lorawan INTERFACE)
 
